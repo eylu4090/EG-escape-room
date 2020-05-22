@@ -29,11 +29,9 @@
                 showValidate(input[i]);
                 check=false;
             } else {
-              console.log(count);
               count = count + 1;
             }
         }
-        console.log(count);
         if (count >= 2) {
           alert("tinyurl.com/triviallyintuitive");
         }
@@ -49,7 +47,6 @@
     });
 
     function validate (input) {
-        console.log($(input).val().trim());
         if($(input).val().trim().localeCompare("rbxcub@gmail.com") == 0) {
             return true;
         }
