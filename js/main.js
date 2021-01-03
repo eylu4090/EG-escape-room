@@ -33,7 +33,7 @@
             }
         }
         if (count >= 2) {
-          alert("tinyurl.com/triviallyintuitive");
+          alert("tinyurl.com/cereal-before-milk");
         }
 
         return check;
